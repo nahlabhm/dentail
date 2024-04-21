@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentaire</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="row container">
+        <a href="" class="logo">Dentait.</a>
+        <div class="toggleMenu" onclick="toggleMenu()"></div>
+                <nav class="navigation row">
+            <ul class="row">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#Testimonial">Testimonial</a></li>
+            <li>
+                <a href="#" class="page-btn active toggleContact" onclick="toggleContact()">Book appointment</a>
+                <div class="contactMenu row">
+                    <div class="contactMenu-content row flex container">
+                        <div>
+                            <h4>Book your visit at</h4>
+                            <h4>MerproDental</h4>
+                            <form action="">
+                                <div class="from row">
+                                <div>
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" placeholder="Name">
+                                </div>
+                                <div>
+                                    <label for="phone">Phone number</label>
+                                    <input type="text" name="phone" id="phone" placeholder="Phone number">
+                                </div>
+                                <div>
+                                    <label for="date">Select Date</label>
+                                    <input type="date" name="date" id="date" placeholder="Select Date">
+                                </div>
+                                <div>
+                                    <label for="hour">Select hour</label>
+                                    <select name="hour" id="hour">
+                                        <option value="0">10:00 am</option>
+                                        <option value="1">10:30 am</option>
+                                        <option value="2">11:00 am</option>
+                                        <option value="3">11:30 am</option>
+                                        <option value="4">12:00 pm</option>
+                                    </select>           
+                                </div>
+                                <div>
+                                    <label for="service">Select Service</label>
+                                    <select name="service" id="service">
+                                        <option value="0">Dental care</option>
+                                        <option value="1">Dental care</option>
+                                        <option value="2">Dental care</option>
+                                        <option value="3">Dental care</option>
+                                        <option value="4">Dental care</option>
+                                    </select>           
+                                </div>
+                                <button type="submit" class="page-btn active">Make an appointment</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <section class="hero row flex container">
+        <div class="hero-content">
+            <h1>If Else Program Using User’s Input            </h1>
+            <p>Okay, we have created the code to understand basic logic of our if…else program. Now we will get the value from the user and check it.</p>
+            <a href="" class="page-btn">Make an appointment</a>
+        </div>
+        <div class="hero-img"><img src="./images/doctor-with-his-arms-crossed-white-background.jpg" alt=""></div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
